@@ -5,7 +5,7 @@
 	{% unless forloop.first %}
 		</section>
 	{% endunless %}
-	<section class="archives"><h2 class="year">{{ date | date: "%Y" }}</h1>
+	<section class="archives"><h2>{{ date | date: "%Y" }}</h1>
 {% endunless %}
 <article>
 	<h3><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h3>

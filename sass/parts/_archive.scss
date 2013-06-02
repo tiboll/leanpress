@@ -1,31 +1,25 @@
 .archives{
-	padding-bottom: 1.5em;
-	position: relative;
-	.year{
-		width: 200px;
-		position: absolute;
-		padding-top: 1.5em;
+	padding: 40px 0 1.5em;
+	h2 {
 		@media screen and (max-width: 600px){
 			font-size: 18px;
-			position: relative;
-			width: 100%;
 		}
 	}
 	article{
-		margin-left: 200px;
 		&:first-of-type{
-			padding-top: 40px;
-		}
-		padding-top: 0;
-		border-top: none;
-		@media screen and (max-width: 600px){
-			margin-left: 0;
-			&:first-of-type{
-				padding-top: 0;
+			h3 {
+				margin: 0;
 			}
 		}
-		.title{
-			margin-bottom: 0;
+		margin-left: 200px;
+		padding: 0;
+		@media screen and (max-width: 600px) {
+			margin-left: 0;
+			&:first-of-type{
+				h3 {
+					margin: 1.2em 0 0 0;
+				}
+			}
 		}
 		.meta{
 			color: $color-gray02;
