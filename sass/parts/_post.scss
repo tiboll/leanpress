@@ -38,9 +38,6 @@
 			border-bottom:1px solid #bf0222;
 		}
 		.date, .tags, .comments{
-			padding-left: 30px;
-			position: relative;
-	
 			@media screen and (max-width: 620px){
 				@include inline-block;
 				margin-right: 30px;
