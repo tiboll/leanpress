@@ -19,7 +19,7 @@ It's forked from the awesome [CleanPress Theme][cleanpress] and is indebted to
 
 ## Author
 
-© 2013 Paul C. <carmo.org.uk>
+© 2013 Paul C. <carmo.org.uk>  
 © 2013 Tom Vincent <http://tlvince.com/contact>
 
 ## License
