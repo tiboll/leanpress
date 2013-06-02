@@ -136,9 +136,18 @@ article{
 }
 .share{
 	padding: 15px 0;
-	padding-left:260px;
+	text-align: center;
 	@media screen and (max-width: 620px) {
 	padding-left: 0px;
 	}
-	@include border-shadow();
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+			padding: 0 2px;
+			a:link,a:visited {
+				border: none;
+			}
+		}
+	}
 }
