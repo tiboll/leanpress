@@ -11,7 +11,6 @@ article{
 		font-size: 36px;
 		font-weight: 300;
 		line-height: 1;
-		margin-bottom: 20px;
 		margin-left:0px;
 		text-align:left;
 		border-bottom: 0px;
@@ -22,8 +21,6 @@ article{
 		color: $color-main;
 		border-bottom: 0px;
 		}
-		border-bottom: 1px solid $color-gray04;
-		padding-bottom: .75em;
 		@media screen and (max-width: 620px) {
 		font-size: 18px;
 		}
@@ -38,14 +35,6 @@ article{
 				text-decoration:none;
 
 			}
-		}
-		.more-link{
-			display: block;
-			margin-top: 16px;
-			padding-left: 30px;
-			position: relative;
-			border-bottom: 0px;
-
 		}
 		p, blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container{
 			margin-top: 1.5em;
