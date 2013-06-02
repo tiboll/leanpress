@@ -47,13 +47,6 @@ article{
 			padding-left: 30px;
 			position: relative;
 			border-bottom: 0px;
-			&:before{
-				content: "\f061";
-				font: 1.3em $font-icon;
-				line-height: 1.6em;
-				position: absolute;
-				left: 0;
-			}
 			
 		}
 		p, blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container{
@@ -139,14 +132,6 @@ article{
 			color: $color-gray02;
 			padding-left: 25px;
 			position: relative;
-			&:before{
-				content: "\f040";
-				color: $color-gray03;
-				font: 1.3em $font-icon;
-				line-height: 1.6em;
-				position: absolute;
-				left: 0;
-			}
 		}
 		.video-container{
 			position: relative;
