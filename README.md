@@ -6,7 +6,7 @@ LeanPress is a minimal, single column, responsive theme for
 It's forked from the awesome [CleanPress Theme][cleanpress] and is indebted to
 [Information Architects][ia] clean and elegant, text-driven design.
 
-[Octopress]: http://octopress.org.
+[octopress]: http://octopress.org
 [cleanpress]: https://github.com/macjasp/cleanpress
 [ia]: http://ia.net/blog
 
